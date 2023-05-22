@@ -1,13 +1,3 @@
-# Typescript Webpack Sequelize Template
+# Typescript Application Template
 
-This is a NodeJS Server Template with support for the following OOB.
-
-- Sequelize
-- Express
-- Typescript
-- Webpack
-- Husky
-- Commitlint
-- Docker
-- Docker Compose
-- Prettier
+This is a template for a typescript application. It includes a basic setup for a typescript application with a build script and a test script.
