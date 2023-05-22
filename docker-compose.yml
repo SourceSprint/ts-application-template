@@ -1,7 +1,7 @@
 version: "3.8"
 
 services:
-    simple-server:
+    ts-application-template:
         build:
             context: .
             dockerfile: Dockerfile
@@ -11,15 +11,5 @@ services:
             options:
                 max-file: "5"
                 max-size: "10m"
-
-        environment: 
-            - PORT=$PORT
-            - MYSQL_HOST=$MYSQL_HOST
-            - MYSQL_PORT=$MYSQL_PORT
-            - MYSQL_DATABASE=$MYSQL_DATABASE
-            - MYSQL_USERNAME=$MYSQL_USERNAME
-            - MYSQL_PASSWORD=$MYSQL_PASSWORD
-            - MYSQL_CONNECTION=$MYSQL_CONNECTION
-
 
         restart: unless-stopped
