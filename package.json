@@ -1,7 +1,7 @@
 {
-  "name": "typescript-webpack-sequelize-template",
+  "name": "ts-application-template",
   "version": "1.0.0",
-  "description": "NodeJS Server Template with support for sequelize",
+  "description": "Typescript application template",
   "main": "dist/index.js",
   "scripts": {
     "start": "node dist/index.js",
@@ -13,7 +13,7 @@
     "lint": "prettier --write 'src/**/*{.js,.ts,.json}'"
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=18.16.0"
   },
   "repository": {
     "type": "git",
@@ -23,8 +23,6 @@
     "nodejs",
     "typescript",
     "webpack",
-    "mysql",
-    "sequelize",
     "pnpm"
   ],
   "author": "David Ibia <david.ibia@boxmarshall.com>",
@@ -36,10 +34,6 @@
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
-    "@types/cors": "^2.8.13",
-    "@types/express": "^4.17.15",
-    "@types/express-serve-static-core": "^4.17.31",
-    "@types/morgan": "^1.9.3",
     "@types/node": "^18.11.15",
     "eslint": "^8.29.0",
     "husky": "^8.0.2",
@@ -58,13 +52,7 @@
   },
   "dependencies": {
     "@boxpositron/vre": "^1.0.0",
-    "cors": "^2.8.5",
     "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "helmet": "^6.0.1",
-    "moment-logger": "1.0.5-12",
-    "morgan": "^1.10.0",
-    "mysql2": "^2.3.3",
-    "sequelize": "^6.27.0"
+    "moment-logger": "1.0.5-12"
   }
 }
